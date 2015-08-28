@@ -106,7 +106,7 @@
 				<td bgcolor="#FFCCFF" align="center">车站</td>
 				<td bgcolor="#FFCCFF" align="center">开车时间</td>
 				<td bgcolor="#FFCCFF" align="center">到站时间</td>
-				<td bgcolor="#FFCCFF" align="center">路程(KM)</td>
+				<td bgcolor="#FFCCFF" align="center">路程(km)</td>
 			</tr>
 			<tr>
 				<td align="center"><%=train.getTrainStation().equals("")?"--":train.getTrainStation() %></td>
@@ -132,7 +132,7 @@
 				<td bgcolor="#FFCCCC" align="center">车次</td>
 				<td bgcolor="#FFCCCC" align="center">始发站</td>
 				<td bgcolor="#FFCCCC" align="center">终点站</td>
-				<td bgcolor="#FFCCCC" align="center">路程(KM)</td>
+				<td bgcolor="#FFCCCC" align="center">路程(km)</td>
 				<td bgcolor="#FFCCCC" align="center">发车站</td>
 				<td bgcolor="#FFCCCC" align="center">发车时间</td>
 				<td bgcolor="#FFCCCC" align="center">到达站</td>
